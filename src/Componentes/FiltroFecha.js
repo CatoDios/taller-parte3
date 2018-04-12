@@ -15,7 +15,6 @@ class FiltroFecha extends React.Component {
           
           <form className="margen_izq" onSubmit={(e) => this.addNewFiltro(e)}>
           
-           <button  className="waves-effect waves-light btn-large botonazul2 center"type="submit">Buscar<i className="large material-icons left">search</i></button>
            <h4 className=" centrar margen_top ">Fechas</h4>
           <div className = "SplitPane">
            <div >
@@ -29,7 +28,10 @@ class FiltroFecha extends React.Component {
            
             </div>
            </div>
+           <button  className="waves-effect waves-light btn-large botonazul2 center"type="submit">Buscar<i className="large material-icons left">search</i></button>
+
           </div>
+          
           </form>
         </div>
         )
